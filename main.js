@@ -42,7 +42,7 @@ function eliminarTarea() {
 function menu() {
     let opcion;
     do {
-        opcion = parseInt(prompt("Seleccione una opción:\n1. Agregar tarea\n2. Listar tareas\n3. Marcar tarea como completada\n4. Eliminar tarea\n5. Salir"));
+        opcion = prompt("Seleccione una opción:\n1. Agregar tarea\n2. Listar tareas\n3. Marcar tarea como completada\n4. Eliminar tarea\n5. Salir");
         switch(opcion) {
             case "1":
                 const descripcion = prompt("Ingrese la descripción de la tarea:");
